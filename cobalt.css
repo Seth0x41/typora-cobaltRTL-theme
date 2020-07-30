@@ -17,6 +17,28 @@
     --control-text-hover-color: var(--text-color);
     --heading-char-color: #f0b752;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, p, a, del, mark, #write p, #write a, #write del, #write mark, #write ul, #write li, #write ol,
+#write table, #write tr, #write td, table, tr, td {
+  direction: rtl;
+}
+
+.outline-item{
+  direction: rtl;
+}
+.outline-h2, .outline-h3, .outline-h4,
+ .outline-h5, .outline-h6 {
+  margin-right: 10px !important;
+}
+
+#md-notification, #md-notification *{
+  direction: rtl;
+}
+
 
 .dropdown-menu {
     background-color: #1a283d !important;
@@ -324,13 +346,14 @@ ol:last-child {
 }
 
 blockquote {
+    border-right: 4px solid #f0b752;
+    padding-right: 10px;
     font-family: 'Nunito', 'Times New Roman', serif;
     margin: 1rem 0 1rem 2rem;
     position: relative;
 }
 
 blockquote::before {
-    background: #f0b752;
     content: '';
     height: 100%;
     left: -2rem;
@@ -441,6 +464,7 @@ tt {
 }
 
 code {
+    direction: ltr;
     background-color: #6952b6;
     border-radius: 4px;
     color: #fff;
