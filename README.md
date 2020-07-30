@@ -12,7 +12,7 @@ A dark theme inspired by Wes Bos's [Cobalt](https://www.github.com/wesbos) theme
 
 ![Splash screen](images/screenshot1.png)
 
-![Splash screen](images/screenshot2.png)
+![Splash screen](images/imagesscreenshot2.PNG)
 
-![Splash screen](images/screenshot3.png)
+![Splash screen](images/screenshot3.PNG)
 
