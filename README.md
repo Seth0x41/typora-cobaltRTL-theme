@@ -16,4 +16,3 @@ A dark theme inspired by Wes Bos's [Cobalt](https://www.github.com/wesbos) theme
 
 ![Splash screen](images/screenshot3.png)
 
-![Splash screen](images/screenshot4.png)
